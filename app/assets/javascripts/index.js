@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
   for (let i = 0; i <= 30; i++) {
     busicon.push(
       L.icon({
-        iconUrl: 'icons/busicon.png',
+        iconUrl: 'assets/busicon.png',
         iconSize:     [32, 32],
         iconAnchor:   [16, 16],
         popupAnchor:  [100, 100]
