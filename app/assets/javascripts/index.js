@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function displayData(buslayer, busicon){
-  $.getJSON('http://www.ridecenter.org:7017/list', function(data) {
+  $.getJSON('list/get_list', function(data) {
     buslayer.clearLayers();
     for(bus of data){
       let x = '-';
