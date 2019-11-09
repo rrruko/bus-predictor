@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
         popupAnchor:  [100, 100]
       }));
   }
-  $.getJSON('assets/stops.json', function(data) {
+  $.getJSON('<%= asset_path('stops.json') %>', function(data) {
       for (stop of data) {
         let lat = stop.stop_lat;
         let lon = stop.stop_lon;
